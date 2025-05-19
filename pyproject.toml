@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "lol-model-training"
+version = "0.1.0"
+description = "A repository for training ML models to predict LoL ranked match outcomes."
+authors = ["Mark Bugden"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "features", from = "src" },
+    { include = "models", from = "src" },
+    { include = "training", from = "src" },
+    { include = "evaluation", from = "src" },
+    { include = "utils", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.12, <4.0"
+tqdm = "^4.67.1"
+loguru = "^0.7.3"
+ipykernel = "^6.29.5"
+pandas = "^2.2.3"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^6.0.1"
+black = "^25.1.0"
+flake8 = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

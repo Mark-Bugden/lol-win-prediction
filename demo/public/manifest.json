@@ -1,0 +1,13 @@
+{
+  "slug": "lol-win-prediction",
+  "title": "Predicting the Play",
+  "tagline": "Predicting the outcome of League of Legends matches.",
+  "summary": "A machine learning project that predicts which team wins a League of Legends match. Match data is collected from Riot Games' API, and classification models are trained on it to predict the winner.",
+  "tags": ["predictive modelling", "API", "classification", "machine learning"],
+  "status": "stub",
+  "repo": "https://github.com/Mark-Bugden/lol-win-prediction",
+  "kitVersion": "0.1.0",
+  "built": "2026-11-17",
+  "demo": { "entry": "demo.js", "height": 560, "needsWebGL": false },
+  "writeup": "/projects/lol-win-prediction/"
+}
